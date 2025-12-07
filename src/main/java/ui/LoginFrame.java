@@ -29,6 +29,9 @@ public class LoginFrame extends JFrame {
         setResizable(true);
         setExtendedState(JFrame.MAXIMIZED_BOTH);
 
+        Image logo = Toolkit.getDefaultToolkit().getImage(getClass().getResource("/logo.png"));
+        setIconImage(logo);
+
 
         JPanel mainPanel = new JPanel() {
             @Override
